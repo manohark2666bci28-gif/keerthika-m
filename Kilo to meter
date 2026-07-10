@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    float km;
+    printf("Enter kilometers:");
+    scanf("%f",&km);
+    printf("Meters=%2f\n",km*1000);
+    printf("centimeters=%2f",km*100000);
+    return 0;
+}
+
+*/OUTPUT:
+*/ Enter kilometers:5
+*/ Meters=5000.000000
+*/ centimeters=500000.000000
