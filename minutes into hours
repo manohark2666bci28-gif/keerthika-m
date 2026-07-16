@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int minutes;
-float hours;
-
-printf(&quot;Enter minutes:&quot;);
-scanf(&quot;%d&quot;,&amp;minutes);
-hours=minutes/60.0;
-printf(&quot;Hours=%.2f&quot;,hours);
-return 0;
+    int minutes;
+    float hours;
+    print("Enter minutes:");
+    scanf("%d",&minutes);
+    hours=minutes/60.0;
+    printf("Hours=%.2f",hours);
+    return 0;
 }
+*/output
