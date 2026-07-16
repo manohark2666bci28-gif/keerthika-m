@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,temp;
+    printf("%d%d",&a,&b);
+    scanf("%d%d",&a,&b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("After swapping a number:");
+    printf("a=%d,b=%d",a,b);
+    return 0;
+}
+*
