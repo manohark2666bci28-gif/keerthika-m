@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+       float r, h, s, pi = 3.14159, three = 3.0;
+        printf("Enter r, h, s:\n");
+        scanf("%f %f %f", &r, &h, &s);
+        printf("A: %f\nV: %f\n", pi * r * (r + s), (pi * r * r * h) / three);
+        return 0;
+}
+*/output
+*/Enter r,h,s:
+*/3 4 5
+*/A:75.398163
+*/V:37.699081
