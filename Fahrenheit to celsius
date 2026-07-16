@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+   float fah,cel;
+   printf("Enter the temperature:");
+   scanf("%f",&fah);
+   cel=(fah-32)*5/9;
+   printf("Temperature in celsius=%.2f",cel);
+   return 0;
+}
+*/output
+*/Enter the temperature:45
+*/Temperature in Celsius=7.67
