@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+       float r, h, s, pi = 3.14159, three = 3.0;
+        int x, y, temp;
+       printf("Cone r, h, s:\n");
+       scanf("%f %f %f", &r, &h, &s);
+       printf("A: %f\nV: %f\n\n", pi * r * (r + s), (pi * r * r * h) / three); 
+       printf("Enter 2 integers to swap:\n");
+        scanf("%d %d", &x, &y);
+      temp = x;
+      x = y;
+      y = temp;
+      printf("Swapped: %d %d\n", x, y);
+      return 0;
+}
+*/output
+*/cone:r,h,s:
+*/3 4 5
+*/A:75.398163
+*/V:37.699081
+*/Enter 2 integer to swap: 45 76
+*/Swapped:76 45
